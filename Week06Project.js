@@ -19,8 +19,8 @@ let player2 = new Player();
 
 
 const deckOfCards = []; // empty array for the deck of cards to push the new cards to 
-const suits = ['Hearts', 'Diamonds', 'Spades', 'Clubs']; // variable for the suits 
-const faces = [2, 3, 4, 5, 6, 7, 8, 9, 10, 'Jack', 'Queen', 'King', 'Ace']; // variable for the face of the cards 
+const suits = ['Hearts', 'Diamonds', 'Spades', 'Clubs']; // array for the suits 
+const faces = [2, 3, 4, 5, 6, 7, 8, 9, 10, 'Jack', 'Queen', 'King', 'Ace']; // array for the face of the cards 
 
 //create a deck... make a new card, push into deckOfCards
 for (let i = 0; i < suits.length; i++){
